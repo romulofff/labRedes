@@ -37,13 +37,12 @@ for porta in range(10000): #Para 'porta' variando de 0 a 9999
         servico_tcp = socket.getservbyport(porta, 'tcp')
     except OSError:
         servico_tcp = None
-    
     try:
         servico_udp = socket.getservbyport(porta, 'udp')
     except OSError:
         servico_udp = None
         
-        print(porta, servico_tcp, servico_udp)
+    print(porta, servico_tcp, servico_udp)
         
 #===============Questão 2===============
 print("===============Questão 2===============")
