@@ -42,8 +42,11 @@ for porta in range(10000): #Para 'porta' variando de 0 a 9999
     except OSError:
         servico_udp = None
         
-    print(porta, servico_tcp, servico_udp)
-        
+    #print(porta, servico_tcp, servico_udp)
+    if not servico_tcp and not servico_udp:
+        pass
+    else:
+        print(porta, servico_tcp, servico_udp)
 #===============Questão 2===============
 print("===============Questão 2===============")
 
