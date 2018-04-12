@@ -1,5 +1,5 @@
-import urllib
-import socket
+import urllib.request
+import urllib.error
 import json
 
 # ==================Questão 1==================
