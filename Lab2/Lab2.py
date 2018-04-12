@@ -17,7 +17,7 @@ print("Item B)")
 
 for site in range(10):
     informacoes_site = urllib.request.urlopen(lista_de_sites[site])
-    print(lista_de_sites[site]+" - Código: "+str(informacoes_site.getcode()))
+    print(lista_de_sites[site]+" - Código: ", informacoes_site.getcode())
 
 # ==================Questão 2==================
 print("==================Questão 2==================")
