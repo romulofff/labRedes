@@ -5,7 +5,7 @@ from datetime import datetime
 remoteServer    = "ufc.br"
 #Pegando endereço IP do site
 remoteServerIP  = socket.gethostbyname(remoteServer)
-print(remoteServer + " hosted @"+remoteServerIP)
+print(remoteServer + " hospedado @"+remoteServerIP)
 #Apenas deixando bonito
 x = ' '
 print("="*60)
@@ -18,7 +18,7 @@ for port in portsToTry:
     try:
         #Cria o socket TCP
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        print("Conectando a porta: {}".format(port))
+        print("Conectando a porta {}".format(port))
         #Conectando ao servidor
         sock.connect((remoteServerIP, port))
         try:
