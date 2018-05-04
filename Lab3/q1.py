@@ -16,6 +16,8 @@ result = s.recv(4096)
 print(result)
 
 '''
+O trecho do código que indica que estamos utilizando TCP é o "socket.SOCK_STREAM" quando
+criamos o socket. Se desejássemos UDP, deveríamos utilizar "socket.SOCK_DGRAM".
 
 O código recebido é 301, ou seja, a página buscada foi movida permanentemente. 
 No campo "location" encontra-se o novo endereço da página
