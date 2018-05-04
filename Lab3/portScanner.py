@@ -2,7 +2,8 @@ import socket
 import sys
 from datetime import datetime
 #Site a ser testado
-remoteServer    = "ufc.br"
+#remoteServer    = "ufc.br"
+remoteServer = 'localhost'
 #Pegando endereço IP do site
 remoteServerIP  = socket.gethostbyname(remoteServer)
 print(remoteServer + " hospedado @"+remoteServerIP)
@@ -12,7 +13,7 @@ print("="*60)
 print(25*'-' + " Scanning " + 25*'-')
 print('='*60)
 #Lista de portas a serem testadas + porta 80
-portsToTry = [20,21,22,25,53,80,110,443,8080,3306]
+portsToTry = [20,21,22,25,53,80,110,443,5001,5002,8080,3306]
 #Laço para testes
 for port in portsToTry:  
     try:
