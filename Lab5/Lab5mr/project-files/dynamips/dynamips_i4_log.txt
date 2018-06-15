@@ -1,0 +1,57 @@
+Jun 15 10:03:06.617 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jun 15 10:03:06.617 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49862.
+Jun 15 10:03:07.045 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 15 10:03:07.045 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Marcus Vinicius\Desktop\Lab5mr\project-files\dynamips 
+Jun 15 10:03:07.045 GENERAL: working_dir=C:\Users\Marcus Vinicius\Desktop\Lab5mr\project-files\dynamips
+Jun 15 10:03:07.045 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Marcus Vinicius\Desktop\Lab5mr\project-files\dynamips\602eea1e-74b0-44e1-806a-aaaf8bcc66eb 
+Jun 15 10:03:07.129 GENERAL: working_dir=C:\Users\Marcus Vinicius\Desktop\Lab5mr\project-files\dynamips\602eea1e-74b0-44e1-806a-aaaf8bcc66eb
+Jun 15 10:03:07.130 HYPERVISOR: exec_cmd: vm create SedeA 1 c3725 
+Jun 15 10:03:07.132 VM: VM SedeA created.
+Jun 15 10:03:07.132 HYPERVISOR: exec_cmd: vm set_con_tcp_port SedeA 5031 
+Jun 15 10:03:07.132 HYPERVISOR: exec_cmd: c3725 get_mac_addr SedeA 
+Jun 15 10:03:07.133 HYPERVISOR: exec_cmd: vm set_disk0 SedeA 0 
+Jun 15 10:03:07.134 HYPERVISOR: exec_cmd: vm set_exec_area SedeA 64 
+Jun 15 10:03:07.135 HYPERVISOR: exec_cmd: vm set_ios SedeA C:/Users/Marcus Vinicius/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Jun 15 10:03:07.136 HYPERVISOR: exec_cmd: c3725 set_mac_addr SedeA c201.2f38.0000 
+Jun 15 10:03:07.136 HYPERVISOR: exec_cmd: vm set_nvram SedeA 256 
+Jun 15 10:03:07.137 HYPERVISOR: exec_cmd: vm get_status SedeA 
+Jun 15 10:03:07.137 HYPERVISOR: exec_cmd: vm slot_add_binding SedeA 1 0 NM-1FE-TX 
+Jun 15 10:03:07.138 HYPERVISOR: exec_cmd: vm slot_add_binding SedeA 0 16 WIC-1T 
+Jun 15 10:03:09.219 HYPERVISOR: exec_cmd: nio create_udp udp-942f50de-fef6-41a9-8c1d-43b638a2ed63 10018 127.0.0.1 10019 
+Jun 15 10:03:09.851 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SedeA 0 0 udp-942f50de-fef6-41a9-8c1d-43b638a2ed63 
+Jun 15 10:03:09.851 HYPERVISOR: exec_cmd: vm get_status SedeA 
+Jun 15 10:03:09.906 HYPERVISOR: exec_cmd: nio create_udp udp-499c9876-13a7-4a17-b8a8-9ee3f48815d1 10022 127.0.0.1 10023 
+Jun 15 10:03:09.909 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SedeA 0 16 udp-499c9876-13a7-4a17-b8a8-9ee3f48815d1 
+Jun 15 10:03:09.910 HYPERVISOR: exec_cmd: vm get_status SedeA 
+Jun 15 10:03:37.191 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Jun 15 10:03:37.194 VM: VM Ghost created.
+Jun 15 10:03:37.194 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Marcus Vinicius/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Jun 15 10:03:37.195 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jun 15 10:03:37.195 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\Marcus Vinicius\Desktop\Lab5mr\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost' 
+Jun 15 10:03:37.196 HYPERVISOR: exec_cmd: vm get_status SedeA 
+Jun 15 10:03:37.197 HYPERVISOR: exec_cmd: vm set_config SedeA configs\i1_startup-config.cfg 
+Jun 15 10:03:37.197 HYPERVISOR: exec_cmd: vm start SedeA 
+Jun 15 10:04:07.757 HYPERVISOR: exec_cmd: vm extract_config SedeA 
+Jun 15 10:04:07.771 HYPERVISOR: exec_cmd: vm extract_config SedeA 
+Jun 15 10:09:08.895 HYPERVISOR: exec_cmd: vm get_status SedeA 
+Jun 15 10:09:08.896 HYPERVISOR: exec_cmd: vm stop SedeA 
+Jun 15 10:09:09.027 VM: VM SedeA shutdown.
+Jun 15 10:09:09.028 HYPERVISOR: exec_cmd: vm extract_config SedeA 
+Jun 15 10:09:13.115 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Jun 15 10:09:13.119 HYPERVISOR: exec_cmd: vm get_status SedeA 
+Jun 15 10:09:13.120 HYPERVISOR: exec_cmd: vm set_config SedeA configs\i1_startup-config.cfg 
+Jun 15 10:09:13.121 HYPERVISOR: exec_cmd: vm start SedeA 
+Jun 15 10:09:32.781 HYPERVISOR: exec_cmd: vm get_status SedeA 
+Jun 15 10:09:32.782 HYPERVISOR: exec_cmd: vm stop SedeA 
+Jun 15 10:09:32.870 VM: VM SedeA shutdown.
+Jun 15 10:09:32.873 HYPERVISOR: exec_cmd: vm extract_config SedeA 
+Jun 15 10:17:33.607 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Jun 15 10:17:33.609 HYPERVISOR: exec_cmd: vm get_status SedeA 
+Jun 15 10:17:33.610 HYPERVISOR: exec_cmd: vm set_config SedeA configs\i1_startup-config.cfg 
+Jun 15 10:17:33.611 HYPERVISOR: exec_cmd: vm start SedeA 
+Jun 15 10:18:04.104 HYPERVISOR: exec_cmd: vm extract_config SedeA 
+Jun 15 10:18:04.118 HYPERVISOR: exec_cmd: vm extract_config SedeA 
+Jun 15 10:19:13.454 HYPERVISOR: exec_cmd: vm get_status SedeA 
+Jun 15 10:19:13.454 HYPERVISOR: exec_cmd: vm stop SedeA 
+Jun 15 10:19:13.533 VM: VM SedeA shutdown.
+Jun 15 10:19:13.535 HYPERVISOR: exec_cmd: vm extract_config SedeA 

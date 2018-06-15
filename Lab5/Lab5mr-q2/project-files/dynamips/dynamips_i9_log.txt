@@ -1,0 +1,53 @@
+Jun 15 10:10:44.465 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jun 15 10:10:44.465 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50264.
+Jun 15 10:10:44.856 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 15 10:10:44.857 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Marcus Vinicius\Desktop\Lab5mr-q2\project-files\dynamips 
+Jun 15 10:10:44.857 GENERAL: working_dir=C:\Users\Marcus Vinicius\Desktop\Lab5mr-q2\project-files\dynamips
+Jun 15 10:10:44.857 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Marcus Vinicius\Desktop\Lab5mr-q2\project-files\dynamips\d2ae6644-54de-4b0b-97bd-f7bd9069ee12 
+Jun 15 10:10:44.860 GENERAL: working_dir=C:\Users\Marcus Vinicius\Desktop\Lab5mr-q2\project-files\dynamips\d2ae6644-54de-4b0b-97bd-f7bd9069ee12
+Jun 15 10:10:44.860 HYPERVISOR: exec_cmd: vm create Internet 3 c3725 
+Jun 15 10:10:44.878 VM: VM Internet created.
+Jun 15 10:10:44.879 HYPERVISOR: exec_cmd: vm set_con_tcp_port Internet 5032 
+Jun 15 10:10:44.879 HYPERVISOR: exec_cmd: c3725 get_mac_addr Internet 
+Jun 15 10:10:44.879 HYPERVISOR: exec_cmd: vm set_disk0 Internet 0 
+Jun 15 10:10:44.879 HYPERVISOR: exec_cmd: vm set_exec_area Internet 64 
+Jun 15 10:10:44.880 HYPERVISOR: exec_cmd: vm set_ios Internet C:/Users/Marcus Vinicius/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Jun 15 10:10:44.881 HYPERVISOR: exec_cmd: c3725 set_mac_addr Internet c203.5ef4.0000 
+Jun 15 10:10:44.881 HYPERVISOR: exec_cmd: vm set_nvram Internet 256 
+Jun 15 10:10:44.881 HYPERVISOR: exec_cmd: vm get_status Internet 
+Jun 15 10:10:44.881 HYPERVISOR: exec_cmd: vm slot_add_binding Internet 1 0 NM-1FE-TX 
+Jun 15 10:10:44.882 HYPERVISOR: exec_cmd: vm slot_add_binding Internet 0 16 WIC-1T 
+Jun 15 10:10:44.882 HYPERVISOR: exec_cmd: vm slot_add_binding Internet 0 32 WIC-1T 
+Jun 15 10:10:44.883 HYPERVISOR: exec_cmd: vm set_con_tcp_port Internet 5032 
+Jun 15 10:10:46.723 HYPERVISOR: exec_cmd: nio create_udp udp-85f500c7-8a25-4d67-9e54-de83c46b411f 10062 127.0.0.1 10063 
+Jun 15 10:10:47.280 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Internet 0 16 udp-85f500c7-8a25-4d67-9e54-de83c46b411f 
+Jun 15 10:10:47.281 HYPERVISOR: exec_cmd: vm get_status Internet 
+Jun 15 10:10:47.330 HYPERVISOR: exec_cmd: nio create_udp udp-b3ab8d08-c150-444d-be35-f8e2a2356584 10066 127.0.0.1 10067 
+Jun 15 10:10:47.332 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Internet 0 32 udp-b3ab8d08-c150-444d-be35-f8e2a2356584 
+Jun 15 10:10:47.332 HYPERVISOR: exec_cmd: vm get_status Internet 
+Jun 15 10:11:00.460 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Jun 15 10:11:00.461 VM: VM Ghost created.
+Jun 15 10:11:00.462 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Marcus Vinicius/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Jun 15 10:11:00.462 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jun 15 10:11:00.463 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\Marcus Vinicius\Desktop\Lab5mr-q2\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost' 
+Jun 15 10:11:00.463 HYPERVISOR: exec_cmd: vm get_status Internet 
+Jun 15 10:11:00.464 HYPERVISOR: exec_cmd: vm set_config Internet configs\i3_startup-config.cfg 
+Jun 15 10:11:00.464 HYPERVISOR: exec_cmd: vm start Internet 
+Jun 15 10:11:30.975 HYPERVISOR: exec_cmd: vm extract_config Internet 
+Jun 15 10:11:30.990 HYPERVISOR: exec_cmd: vm extract_config Internet 
+Jun 15 10:13:37.253 HYPERVISOR: exec_cmd: vm get_status Internet 
+Jun 15 10:13:37.254 HYPERVISOR: exec_cmd: vm stop Internet 
+Jun 15 10:13:37.341 VM: VM Internet shutdown.
+Jun 15 10:13:37.344 HYPERVISOR: exec_cmd: vm extract_config Internet 
+Jun 15 10:19:40.559 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Jun 15 10:19:40.562 HYPERVISOR: exec_cmd: vm get_status Internet 
+Jun 15 10:19:40.562 HYPERVISOR: exec_cmd: vm set_config Internet configs\i3_startup-config.cfg 
+Jun 15 10:19:40.563 HYPERVISOR: exec_cmd: vm start Internet 
+Jun 15 10:20:11.191 HYPERVISOR: exec_cmd: vm extract_config Internet 
+Jun 15 10:20:11.233 HYPERVISOR: exec_cmd: vm extract_config Internet 
+Jun 15 10:20:37.809 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Jun 15 10:20:37.811 HYPERVISOR: exec_cmd: vm get_status Internet 
+Jun 15 10:27:31.117 HYPERVISOR: exec_cmd: vm get_status Internet 
+Jun 15 10:27:31.117 HYPERVISOR: exec_cmd: vm stop Internet 
+Jun 15 10:27:31.306 VM: VM Internet shutdown.
+Jun 15 10:27:31.308 HYPERVISOR: exec_cmd: vm extract_config Internet 

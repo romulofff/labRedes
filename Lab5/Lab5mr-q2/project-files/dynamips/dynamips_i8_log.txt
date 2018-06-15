@@ -1,0 +1,52 @@
+Jun 15 10:10:43.852 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jun 15 10:10:43.852 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50261.
+Jun 15 10:10:44.290 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 15 10:10:44.291 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Marcus Vinicius\Desktop\Lab5mr-q2\project-files\dynamips 
+Jun 15 10:10:44.291 GENERAL: working_dir=C:\Users\Marcus Vinicius\Desktop\Lab5mr-q2\project-files\dynamips
+Jun 15 10:10:44.291 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Marcus Vinicius\Desktop\Lab5mr-q2\project-files\dynamips\1453d87e-0bca-41c3-b27b-2c17d6ab2b06 
+Jun 15 10:10:44.292 GENERAL: working_dir=C:\Users\Marcus Vinicius\Desktop\Lab5mr-q2\project-files\dynamips\1453d87e-0bca-41c3-b27b-2c17d6ab2b06
+Jun 15 10:10:44.292 HYPERVISOR: exec_cmd: vm create SedeA 1 c3725 
+Jun 15 10:10:44.315 VM: VM SedeA created.
+Jun 15 10:10:44.316 HYPERVISOR: exec_cmd: vm set_con_tcp_port SedeA 5030 
+Jun 15 10:10:44.316 HYPERVISOR: exec_cmd: c3725 get_mac_addr SedeA 
+Jun 15 10:10:44.317 HYPERVISOR: exec_cmd: vm set_disk0 SedeA 0 
+Jun 15 10:10:44.317 HYPERVISOR: exec_cmd: vm set_exec_area SedeA 64 
+Jun 15 10:10:44.319 HYPERVISOR: exec_cmd: vm set_ios SedeA C:/Users/Marcus Vinicius/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Jun 15 10:10:44.319 HYPERVISOR: exec_cmd: c3725 set_mac_addr SedeA c201.2f38.0000 
+Jun 15 10:10:44.319 HYPERVISOR: exec_cmd: vm set_nvram SedeA 256 
+Jun 15 10:10:44.320 HYPERVISOR: exec_cmd: vm get_status SedeA 
+Jun 15 10:10:44.320 HYPERVISOR: exec_cmd: vm slot_add_binding SedeA 1 0 NM-1FE-TX 
+Jun 15 10:10:44.320 HYPERVISOR: exec_cmd: vm slot_add_binding SedeA 0 16 WIC-1T 
+Jun 15 10:10:44.321 HYPERVISOR: exec_cmd: vm set_con_tcp_port SedeA 5030 
+Jun 15 10:10:46.037 HYPERVISOR: exec_cmd: nio create_udp udp-819bb497-56c8-4788-886a-eca9edb21ec9 10056 127.0.0.1 10057 
+Jun 15 10:10:46.664 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SedeA 0 0 udp-819bb497-56c8-4788-886a-eca9edb21ec9 
+Jun 15 10:10:46.665 HYPERVISOR: exec_cmd: vm get_status SedeA 
+Jun 15 10:10:46.711 HYPERVISOR: exec_cmd: nio create_udp udp-502096f7-62a0-45b6-8a6f-4e496513b2ab 10060 127.0.0.1 10061 
+Jun 15 10:10:46.713 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SedeA 0 16 udp-502096f7-62a0-45b6-8a6f-4e496513b2ab 
+Jun 15 10:10:46.714 HYPERVISOR: exec_cmd: vm get_status SedeA 
+Jun 15 10:11:00.452 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Jun 15 10:11:00.453 VM: VM Ghost created.
+Jun 15 10:11:00.454 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Marcus Vinicius/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Jun 15 10:11:00.455 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jun 15 10:11:00.456 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\Marcus Vinicius\Desktop\Lab5mr-q2\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost' 
+Jun 15 10:11:00.458 HYPERVISOR: exec_cmd: vm get_status SedeA 
+Jun 15 10:11:00.461 HYPERVISOR: exec_cmd: vm set_config SedeA configs\i1_startup-config.cfg 
+Jun 15 10:11:00.461 HYPERVISOR: exec_cmd: vm start SedeA 
+Jun 15 10:11:30.929 HYPERVISOR: exec_cmd: vm extract_config SedeA 
+Jun 15 10:11:30.944 HYPERVISOR: exec_cmd: vm extract_config SedeA 
+Jun 15 10:13:37.241 HYPERVISOR: exec_cmd: vm get_status SedeA 
+Jun 15 10:13:37.242 HYPERVISOR: exec_cmd: vm stop SedeA 
+Jun 15 10:13:37.320 VM: VM SedeA shutdown.
+Jun 15 10:13:37.321 HYPERVISOR: exec_cmd: vm extract_config SedeA 
+Jun 15 10:19:40.550 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Jun 15 10:19:40.553 HYPERVISOR: exec_cmd: vm get_status SedeA 
+Jun 15 10:19:40.554 HYPERVISOR: exec_cmd: vm set_config SedeA configs\i1_startup-config.cfg 
+Jun 15 10:19:40.555 HYPERVISOR: exec_cmd: vm start SedeA 
+Jun 15 10:20:11.193 HYPERVISOR: exec_cmd: vm extract_config SedeA 
+Jun 15 10:20:11.217 HYPERVISOR: exec_cmd: vm extract_config SedeA 
+Jun 15 10:20:37.803 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Jun 15 10:20:37.806 HYPERVISOR: exec_cmd: vm get_status SedeA 
+Jun 15 10:27:31.015 HYPERVISOR: exec_cmd: vm get_status SedeA 
+Jun 15 10:27:31.015 HYPERVISOR: exec_cmd: vm stop SedeA 
+Jun 15 10:27:31.104 VM: VM SedeA shutdown.
+Jun 15 10:27:31.106 HYPERVISOR: exec_cmd: vm extract_config SedeA 

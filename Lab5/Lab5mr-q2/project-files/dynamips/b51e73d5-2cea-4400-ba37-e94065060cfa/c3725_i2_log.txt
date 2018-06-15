@@ -1,0 +1,815 @@
+Jun 15 10:10:58.916 VTTY: Console port: waiting connection on tcp port 5008 for protocol IPv4 (FD 12)
+Jun 15 10:10:58.961 slot0: C/H/S settings = 0/4/32
+Jun 15 10:10:58.961 slot1: C/H/S settings = 0/4/32
+Jun 15 10:10:59.376 C3725_BOOT: starting instance (CPU0 PC=0xffffffffbfc00000,idle_pc=0x0,JIT on)
+Jun 15 10:10:59.376 CPU0: CPU_STATE: Starting CPU (old state=2)...
+Jun 15 10:10:59.519 ROM: Microcode has started.
+Jun 15 10:10:59.522 ROM: trying to read bootvar 'WARM_REBOOT'
+Jun 15 10:10:59.584 CPU0: IO_FPGA: write to unknown addr 0x34, value=0x22, pc=0x60270bf4 (size=2)
+Jun 15 10:10:59.584 ROM: unhandled syscall 0x00000047 at pc=0x60bf2ab4 (a1=0x80007df4,a2=0x6392acb4,a3=0x0000011c)
+Jun 15 10:10:59.874 ROM: trying to read bootvar 'RANDOM_NUM'
+Jun 15 10:10:59.908 CPU0: PCI: read request for device 'gt96100' at pc=0x6027c7e4: bus=0,device=0,function=0,reg=0x00
+Jun 15 10:10:59.908 CPU0: PCI: read request for device 'gt96100' at pc=0x6027c7e8: bus=0,device=0,function=0,reg=0x00
+Jun 15 10:10:59.908 CPU0: PCI: read request for device 'gt96100' at pc=0x6027c598: bus=0,device=0,function=0,reg=0x08
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x10
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x10
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x90
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x90
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0x10000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x14
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0x10000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x14
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0x10000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x94
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0x10000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x94
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0x14000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x20
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0x14000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x20
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0x14000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0xa0
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0x14000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0xa0
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0x00000146) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x04
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0x00000146) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x04
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0x00000146) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x84
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0x00000146) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x84
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0x00000007) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x0c
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0x00000007) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x0c
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0x00000007) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x8c
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0x00000007) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x8c
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x10
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x10
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x90
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x90
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0x20000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x14
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0x20000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x14
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0x20000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x94
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0x20000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x94
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0xc0000000) for unknown device at pc=0x6027c6e0 (bus=0,device=0,function=1,reg=0x10).
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0xc0000000) for unknown device at pc=0x6027c6e4 (bus=0,device=0,function=1,reg=0x10).
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0xc0000000) for unknown device at pc=0x6027c6e0 (bus=0,device=0,function=1,reg=0x90).
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0xc0000000) for unknown device at pc=0x6027c6e4 (bus=0,device=0,function=1,reg=0x90).
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0xe0000000) for unknown device at pc=0x6027c6e0 (bus=0,device=0,function=1,reg=0x14).
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0xe0000000) for unknown device at pc=0x6027c6e4 (bus=0,device=0,function=1,reg=0x14).
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0xe0000000) for unknown device at pc=0x6027c6e0 (bus=0,device=0,function=1,reg=0x94).
+Jun 15 10:10:59.908 CPU0: PCI: write request (data=0xe0000000) for unknown device at pc=0x6027c6e4 (bus=0,device=0,function=1,reg=0x94).
+Jun 15 10:10:59.908 CPU0: IO_FPGA: write to unknown addr 0x32, value=0x40, pc=0x60279b44 (size=2)
+Jun 15 10:10:59.908 CPU0: IO_FPGA: read from unknown addr 0x16, pc=0x60292370 (size=2)
+Jun 15 10:10:59.908 CPU0: IO_FPGA: read from unknown addr 0x16, pc=0x6029239c (size=2)
+Jun 15 10:10:59.908 CPU0: IO_FPGA: write to unknown addr 0x16, value=0x0, pc=0x602923b0 (size=2)
+Jun 15 10:10:59.909 CPU0: MTS: read  access to undefined address 0x3c080000 at pc=0x602923e4 (size=1)
+Jun 15 10:10:59.911 ROM: unhandled syscall 0x0000003e at pc=0x60bf2ab4 (a1=0x80007de4,a2=0x6392ac90,a3=0x000000f8)
+Jun 15 10:10:59.912 ROM: unhandled syscall 0x00000047 at pc=0x60bf2ab4 (a1=0x80007dec,a2=0x6392acb4,a3=0x0000011c)
+Jun 15 10:11:00.743 ROM: trying to read bootvar 'BOOT'
+Jun 15 10:11:00.743 ROM: trying to read bootvar 'CONFIG_FILE'
+Jun 15 10:11:00.743 ROM: trying to read bootvar 'BOOTLDR'
+Jun 15 10:11:00.743 ROM: trying to read bootvar 'RSHELF'
+Jun 15 10:11:00.743 ROM: trying to read bootvar 'DSHELF'
+Jun 15 10:11:00.743 ROM: trying to read bootvar 'DSHELFINFO'
+Jun 15 10:11:00.743 ROM: trying to read bootvar 'RESET_COUNTER'
+Jun 15 10:11:00.743 ROM: trying to read bootvar 'CHRG_LOCRECSN'
+Jun 15 10:11:00.743 ROM: trying to read bootvar 'CHRG_ID'
+Jun 15 10:11:00.743 ROM: trying to read bootvar 'SLOTCACHE'
+Jun 15 10:11:00.743 ROM: trying to read bootvar 'OVERTEMP'
+Jun 15 10:11:00.743 ROM: trying to read bootvar 'DIAG'
+Jun 15 10:11:00.743 ROM: trying to read bootvar 'DIAMETER_ORIGIN_ID'
+Jun 15 10:11:00.743 ROM: trying to read bootvar 'WARM_REBOOT'
+Jun 15 10:11:00.887 CPU0: IO_FPGA: read from unknown addr 0x16, pc=0x6090a8d4 (size=2)
+Jun 15 10:11:00.887 CPU0: MTS: read  access to undefined address 0x3c080022 at pc=0x6090a4c4 (size=1)
+Jun 15 10:11:00.887 CPU0: MTS: read  access to undefined address 0x3c080023 at pc=0x6090a54c (size=1)
+Jun 15 10:11:00.887 CPU0: MTS: write access to undefined address 0x3c080023 at pc=0x6090a558, value=0x00000000 (size=1)
+Jun 15 10:11:00.887 CPU0: MTS: read  access to undefined address 0x3c080023 at pc=0x6090a564 (size=1)
+Jun 15 10:11:00.887 CPU0: MTS: write access to undefined address 0x3c080023 at pc=0x6090a574, value=0x00000080 (size=1)
+Jun 15 10:11:00.888 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x6090c35c (size=1)
+Jun 15 10:11:00.888 CPU0: MTS: write access to undefined address 0x3c000002 at pc=0x6090c368, value=0x00000080 (size=1)
+Jun 15 10:11:00.888 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x6090c36c (size=1)
+Jun 15 10:11:00.957 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x6090c398 (size=1)
+Jun 15 10:11:01.007 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x6090c398 (size=1)
+Jun 15 10:11:01.055 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x6090c398 (size=1)
+Jun 15 10:11:01.120 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x6090c398 (size=1)
+Jun 15 10:11:01.178 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x6090c398 (size=1)
+Jun 15 10:11:01.245 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x6090c398 (size=1)
+Jun 15 10:11:01.245 CPU0: MTS: write access to undefined address 0x3c080007 at pc=0x6090a660, value=0x00000002 (size=1)
+Jun 15 10:11:01.245 CPU0: MTS: write access to undefined address 0x3c080008 at pc=0x6090a668, value=0x00000002 (size=1)
+Jun 15 10:11:01.245 CPU0: MTS: write access to undefined address 0x3c080009 at pc=0x6090a670, value=0x00000002 (size=1)
+Jun 15 10:11:01.245 CPU0: MTS: write access to undefined address 0x3c08000a at pc=0x6090a674, value=0x00000002 (size=1)
+Jun 15 10:11:01.245 CPU0: MTS: write access to undefined address 0x3c08000b at pc=0x6090a678, value=0x00000002 (size=1)
+Jun 15 10:11:01.245 CPU0: MTS: write access to undefined address 0x3c08000c at pc=0x6090a67c, value=0x00000002 (size=1)
+Jun 15 10:11:01.245 CPU0: MTS: read  access to undefined address 0x3c080022 at pc=0x6090b588 (size=1)
+Jun 15 10:11:01.311 CPU0: JIT: partial JIT flush (count=767)
+Jun 15 10:11:01.650 CPU0: MTS: read  access to undefined address 0x3c080004 at pc=0x607543f0 (size=1)
+Jun 15 10:11:01.650 CPU0: MTS: write access to undefined address 0x3c080004 at pc=0x607543f8, value=0x00000004 (size=1)
+Jun 15 10:11:01.653 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779c58 (size=1)
+Jun 15 10:11:01.653 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779c7c, value=0x00000008 (size=1)
+Jun 15 10:11:01.653 CPU0: MTS: read  access to undefined address 0x3c080004 at pc=0x60779c9c (size=1)
+Jun 15 10:11:01.653 CPU0: MTS: write access to undefined address 0x3c080004 at pc=0x60779cbc, value=0x00000002 (size=1)
+Jun 15 10:11:01.655 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:11:01.655 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:11:01.655 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x607528c0 (size=1)
+Jun 15 10:11:01.655 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000002 (size=1)
+Jun 15 10:11:01.655 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752c24 (size=1)
+Jun 15 10:11:01.655 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000000 (size=1)
+Jun 15 10:11:01.655 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a24 (size=1)
+Jun 15 10:11:01.655 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a2c, value=0x00000000 (size=1)
+Jun 15 10:11:01.655 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a4c (size=1)
+Jun 15 10:11:01.655 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a54, value=0x00000000 (size=1)
+Jun 15 10:11:01.655 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a68 (size=1)
+Jun 15 10:11:01.655 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000004 (size=1)
+Jun 15 10:11:01.655 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x607525bc (size=1)
+Jun 15 10:11:01.657 CPU0: PCI: read request for device 'NM-1FE-TX(1)' at pc=0x6027c7f4: bus=0,device=6,function=0,reg=0x00
+Jun 15 10:11:01.657 CPU0: PCI: read request for device 'NM-1FE-TX(1)' at pc=0x6027c7f8: bus=0,device=6,function=0,reg=0x00
+Jun 15 10:11:01.657 CPU0: PCI: read request for device 'NM-1FE-TX(1)' at pc=0x6027c7f4: bus=0,device=6,function=0,reg=0x00
+Jun 15 10:11:01.657 CPU0: PCI: read request for device 'NM-1FE-TX(1)' at pc=0x6027c7f8: bus=0,device=6,function=0,reg=0x00
+Jun 15 10:11:01.657 CPU0: PCI: write request (data=0x4d000000) for device 'NM-1FE-TX(1)' at pc=0x6027c6c0: bus=0,device=6,function=0,reg=0x14
+Jun 15 10:11:01.657 NM-1FE-TX(1): registers are mapped at 0x4d000000
+Jun 15 10:11:01.657 CPU0: PCI: write request (data=0x4d000000) for device 'NM-1FE-TX(1)' at pc=0x6027c6cc: bus=0,device=6,function=0,reg=0x14
+Jun 15 10:11:01.657 NM-1FE-TX(1): registers are mapped at 0x4d000000
+Jun 15 10:11:01.657 CPU0: PCI: write request (data=0x00000006) for device 'NM-1FE-TX(1)' at pc=0x6027c6c0: bus=0,device=6,function=0,reg=0x04
+Jun 15 10:11:01.657 CPU0: PCI: write request (data=0x00000006) for device 'NM-1FE-TX(1)' at pc=0x6027c6cc: bus=0,device=6,function=0,reg=0x04
+Jun 15 10:11:01.657 CPU0: PCI: write request (data=0x00004000) for device 'NM-1FE-TX(1)' at pc=0x6027c6c0: bus=0,device=6,function=0,reg=0x0c
+Jun 15 10:11:01.657 CPU0: PCI: write request (data=0x00004000) for device 'NM-1FE-TX(1)' at pc=0x6027c6cc: bus=0,device=6,function=0,reg=0x0c
+Jun 15 10:11:01.657 CPU0: PCI: read request for device 'NM-1FE-TX(1)' at pc=0x6027c7f4: bus=0,device=6,function=0,reg=0x00
+Jun 15 10:11:01.657 CPU0: PCI: read request for device 'NM-1FE-TX(1)' at pc=0x6027c7f8: bus=0,device=6,function=0,reg=0x00
+Jun 15 10:11:01.658 CPU0: PCI: write request (data=0x00004000) for device 'NM-1FE-TX(1)' at pc=0x6027c6c0: bus=0,device=6,function=0,reg=0x0c
+Jun 15 10:11:01.658 CPU0: PCI: write request (data=0x00004000) for device 'NM-1FE-TX(1)' at pc=0x6027c6cc: bus=0,device=6,function=0,reg=0x0c
+Jun 15 10:11:01.664 NM-1FE-TX(1): fetching init block at address 0x07de43a0
+Jun 15 10:11:01.664 NM-1FE-TX(1): rx_ring = 0x07de4400 (64), tx_ring = 0x07de4840 (128)
+Jun 15 10:11:01.664 NM-1FE-TX(1): CSR0 = 0x0101
+Jun 15 10:11:01.685 CPU0: IO_FPGA: write to unknown addr 0x34, value=0x33, pc=0x6026e0e0 (size=2)
+Jun 15 10:11:01.687 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779ab8 (size=1)
+Jun 15 10:11:01.688 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000000 (size=1)
+Jun 15 10:11:01.688 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:11:01.688 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:11:01.688 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x60752ae4 (size=1)
+Jun 15 10:11:01.688 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000000 (size=1)
+Jun 15 10:11:01.688 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752cc0 (size=1)
+Jun 15 10:11:01.688 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000010 (size=1)
+Jun 15 10:11:01.688 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779c58 (size=1)
+Jun 15 10:11:01.688 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779c7c, value=0x00000008 (size=1)
+Jun 15 10:11:01.688 CPU0: MTS: read  access to undefined address 0x3c080004 at pc=0x60779c9c (size=1)
+Jun 15 10:11:01.688 CPU0: MTS: write access to undefined address 0x3c080004 at pc=0x60779cbc, value=0x00000002 (size=1)
+Jun 15 10:11:01.688 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:11:01.688 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:11:01.688 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x607528c0 (size=1)
+Jun 15 10:11:01.688 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000002 (size=1)
+Jun 15 10:11:01.688 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752c24 (size=1)
+Jun 15 10:11:01.688 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000000 (size=1)
+Jun 15 10:11:01.688 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a24 (size=1)
+Jun 15 10:11:01.688 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a2c, value=0x00000000 (size=1)
+Jun 15 10:11:01.688 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a4c (size=1)
+Jun 15 10:11:01.688 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a54, value=0x00000000 (size=1)
+Jun 15 10:11:01.688 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a68 (size=1)
+Jun 15 10:11:01.688 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000004 (size=1)
+Jun 15 10:11:01.688 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x607525bc (size=1)
+Jun 15 10:11:01.689 NM-1FE-TX(1): fetching init block at address 0x07de43a0
+Jun 15 10:11:01.689 NM-1FE-TX(1): rx_ring = 0x07de4400 (64), tx_ring = 0x07de4840 (128)
+Jun 15 10:11:01.689 NM-1FE-TX(1): CSR0 = 0x0101
+Jun 15 10:11:01.807 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779ab8 (size=1)
+Jun 15 10:11:01.807 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000000 (size=1)
+Jun 15 10:11:01.807 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:11:01.807 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:11:01.807 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x60752ae4 (size=1)
+Jun 15 10:11:01.807 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000000 (size=1)
+Jun 15 10:11:01.807 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752cc0 (size=1)
+Jun 15 10:11:01.807 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000010 (size=1)
+Jun 15 10:11:01.809 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779c58 (size=1)
+Jun 15 10:11:01.809 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779c7c, value=0x00000008 (size=1)
+Jun 15 10:11:01.809 CPU0: MTS: read  access to undefined address 0x3c080004 at pc=0x60779c9c (size=1)
+Jun 15 10:11:01.809 CPU0: MTS: write access to undefined address 0x3c080004 at pc=0x60779cbc, value=0x00000002 (size=1)
+Jun 15 10:11:01.809 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:11:01.809 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:11:01.809 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x607528c0 (size=1)
+Jun 15 10:11:01.809 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000002 (size=1)
+Jun 15 10:11:01.809 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752c24 (size=1)
+Jun 15 10:11:01.809 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000000 (size=1)
+Jun 15 10:11:01.809 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a24 (size=1)
+Jun 15 10:11:01.809 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a2c, value=0x00000000 (size=1)
+Jun 15 10:11:01.809 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a4c (size=1)
+Jun 15 10:11:01.809 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a54, value=0x00000000 (size=1)
+Jun 15 10:11:01.809 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a68 (size=1)
+Jun 15 10:11:01.809 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000004 (size=1)
+Jun 15 10:11:01.809 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x607525bc (size=1)
+Jun 15 10:11:01.810 NM-1FE-TX(1): fetching init block at address 0x07de43a0
+Jun 15 10:11:01.811 NM-1FE-TX(1): rx_ring = 0x07de4400 (64), tx_ring = 0x07de4840 (128)
+Jun 15 10:11:01.811 NM-1FE-TX(1): CSR0 = 0x0101
+Jun 15 10:11:01.842 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779ab8 (size=1)
+Jun 15 10:11:01.842 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000000 (size=1)
+Jun 15 10:11:01.842 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:11:01.842 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:11:01.842 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x60752ae4 (size=1)
+Jun 15 10:11:01.842 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000000 (size=1)
+Jun 15 10:11:01.842 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752cc0 (size=1)
+Jun 15 10:11:01.842 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000010 (size=1)
+Jun 15 10:11:01.842 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779c58 (size=1)
+Jun 15 10:11:01.842 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779c7c, value=0x00000008 (size=1)
+Jun 15 10:11:01.842 CPU0: MTS: read  access to undefined address 0x3c080004 at pc=0x60779c9c (size=1)
+Jun 15 10:11:01.842 CPU0: MTS: write access to undefined address 0x3c080004 at pc=0x60779cbc, value=0x00000002 (size=1)
+Jun 15 10:11:01.842 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:11:01.843 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:11:01.843 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x607528c0 (size=1)
+Jun 15 10:11:01.843 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000002 (size=1)
+Jun 15 10:11:01.843 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752c24 (size=1)
+Jun 15 10:11:01.843 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000000 (size=1)
+Jun 15 10:11:01.843 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a24 (size=1)
+Jun 15 10:11:01.843 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a2c, value=0x00000000 (size=1)
+Jun 15 10:11:01.843 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a4c (size=1)
+Jun 15 10:11:01.843 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a54, value=0x00000000 (size=1)
+Jun 15 10:11:01.843 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a68 (size=1)
+Jun 15 10:11:01.843 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000004 (size=1)
+Jun 15 10:11:01.843 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x607525bc (size=1)
+Jun 15 10:11:01.844 NM-1FE-TX(1): fetching init block at address 0x07de43a0
+Jun 15 10:11:01.844 NM-1FE-TX(1): rx_ring = 0x07de4400 (64), tx_ring = 0x07de4840 (128)
+Jun 15 10:11:01.844 NM-1FE-TX(1): CSR0 = 0x0101
+Jun 15 10:11:01.850 CPU0: JIT: flushing data structures (compiled pages=900)
+Jun 15 10:11:01.856 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779ab8 (size=1)
+Jun 15 10:11:01.856 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000000 (size=1)
+Jun 15 10:11:01.856 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:11:01.856 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:11:01.856 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x60752ae4 (size=1)
+Jun 15 10:11:01.856 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000000 (size=1)
+Jun 15 10:11:01.856 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752cc0 (size=1)
+Jun 15 10:11:01.856 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000010 (size=1)
+Jun 15 10:11:01.859 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779c58 (size=1)
+Jun 15 10:11:01.859 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779c7c, value=0x00000008 (size=1)
+Jun 15 10:11:01.859 CPU0: MTS: read  access to undefined address 0x3c080004 at pc=0x60779c9c (size=1)
+Jun 15 10:11:01.859 CPU0: MTS: write access to undefined address 0x3c080004 at pc=0x60779cbc, value=0x00000002 (size=1)
+Jun 15 10:11:01.861 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:11:01.861 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:11:01.861 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x607528c0 (size=1)
+Jun 15 10:11:01.861 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000002 (size=1)
+Jun 15 10:11:01.861 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752c24 (size=1)
+Jun 15 10:11:01.861 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000000 (size=1)
+Jun 15 10:11:01.861 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a24 (size=1)
+Jun 15 10:11:01.861 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a2c, value=0x00000000 (size=1)
+Jun 15 10:11:01.861 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a4c (size=1)
+Jun 15 10:11:01.861 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a54, value=0x00000000 (size=1)
+Jun 15 10:11:01.861 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a68 (size=1)
+Jun 15 10:11:01.861 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000004 (size=1)
+Jun 15 10:11:01.861 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x607525bc (size=1)
+Jun 15 10:11:01.873 NM-1FE-TX(1): fetching init block at address 0x07de43a0
+Jun 15 10:11:01.873 NM-1FE-TX(1): rx_ring = 0x07de4400 (64), tx_ring = 0x07de4840 (128)
+Jun 15 10:11:01.873 NM-1FE-TX(1): CSR0 = 0x0101
+Jun 15 10:11:01.931 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779ab8 (size=1)
+Jun 15 10:11:01.931 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000000 (size=1)
+Jun 15 10:11:01.931 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:11:01.931 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:11:01.931 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x60752ae4 (size=1)
+Jun 15 10:11:01.931 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000000 (size=1)
+Jun 15 10:11:01.931 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752cc0 (size=1)
+Jun 15 10:11:01.931 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000010 (size=1)
+Jun 15 10:11:01.931 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779c58 (size=1)
+Jun 15 10:11:01.931 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779c7c, value=0x00000008 (size=1)
+Jun 15 10:11:01.931 CPU0: MTS: read  access to undefined address 0x3c080004 at pc=0x60779c9c (size=1)
+Jun 15 10:11:01.931 CPU0: MTS: write access to undefined address 0x3c080004 at pc=0x60779cbc, value=0x00000002 (size=1)
+Jun 15 10:11:01.931 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:11:01.931 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:11:01.931 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x607528c0 (size=1)
+Jun 15 10:11:01.931 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000002 (size=1)
+Jun 15 10:11:01.931 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752c24 (size=1)
+Jun 15 10:11:01.931 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000000 (size=1)
+Jun 15 10:11:01.931 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a24 (size=1)
+Jun 15 10:11:01.931 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a2c, value=0x00000000 (size=1)
+Jun 15 10:11:01.931 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a4c (size=1)
+Jun 15 10:11:01.931 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a54, value=0x00000000 (size=1)
+Jun 15 10:11:01.931 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a68 (size=1)
+Jun 15 10:11:01.931 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000004 (size=1)
+Jun 15 10:11:01.931 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x607525bc (size=1)
+Jun 15 10:11:01.932 NM-1FE-TX(1): fetching init block at address 0x07de43a0
+Jun 15 10:11:01.932 NM-1FE-TX(1): rx_ring = 0x07de4400 (64), tx_ring = 0x07de4840 (128)
+Jun 15 10:11:01.932 NM-1FE-TX(1): CSR0 = 0x0101
+Jun 15 10:11:02.358 CPU0: JIT: partial JIT flush (count=745)
+Jun 15 10:11:02.736 CPU0: JIT: flushing data structures (compiled pages=934)
+Jun 15 10:11:03.309 CPU0: JIT: partial JIT flush (count=693)
+Jun 15 10:11:03.620 ROM: trying to read bootvar 'PMDEBUG'
+Jun 15 10:11:03.628 ROM: trying to read bootvar 'MONDEBUG'
+Jun 15 10:11:04.065 CPU0: JIT: flushing data structures (compiled pages=982)
+Jun 15 10:11:04.376 ROM: unhandled syscall 0x0000001a at pc=0x60bf2ab4 (a1=0x6626cb14,a2=0x6392ac00,a3=0x00000068)
+Jun 15 10:11:04.376 ROM: unhandled syscall 0x00000009 at pc=0x60bf2ab4 (a1=0x6626cb14,a2=0x6392abbc,a3=0x00000024)
+Jun 15 10:11:04.487 CPU0: JIT: partial JIT flush (count=771)
+Jun 15 10:11:04.799 CPU0: JIT: flushing data structures (compiled pages=1008)
+Jun 15 10:11:04.903 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779ab8 (size=1)
+Jun 15 10:11:04.903 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000000 (size=1)
+Jun 15 10:11:04.904 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:11:04.904 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:11:04.904 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x60752ae4 (size=1)
+Jun 15 10:11:04.904 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000000 (size=1)
+Jun 15 10:11:04.904 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752cc0 (size=1)
+Jun 15 10:11:04.904 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000010 (size=1)
+Jun 15 10:11:04.910 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779c58 (size=1)
+Jun 15 10:11:04.910 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779c7c, value=0x00000008 (size=1)
+Jun 15 10:11:04.910 CPU0: MTS: read  access to undefined address 0x3c080004 at pc=0x60779c9c (size=1)
+Jun 15 10:11:04.910 CPU0: MTS: write access to undefined address 0x3c080004 at pc=0x60779cbc, value=0x00000002 (size=1)
+Jun 15 10:11:04.911 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:11:04.911 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:11:04.911 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x607528c0 (size=1)
+Jun 15 10:11:04.912 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000002 (size=1)
+Jun 15 10:11:04.912 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752c24 (size=1)
+Jun 15 10:11:04.912 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000000 (size=1)
+Jun 15 10:11:04.912 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a24 (size=1)
+Jun 15 10:11:04.912 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a2c, value=0x00000000 (size=1)
+Jun 15 10:11:04.912 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a4c (size=1)
+Jun 15 10:11:04.912 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a54, value=0x00000000 (size=1)
+Jun 15 10:11:04.912 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a68 (size=1)
+Jun 15 10:11:04.912 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000004 (size=1)
+Jun 15 10:11:04.912 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x607525bc (size=1)
+Jun 15 10:11:04.939 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779ab8 (size=1)
+Jun 15 10:11:04.939 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000000 (size=1)
+Jun 15 10:11:04.939 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:11:04.939 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:11:04.939 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x60752ae4 (size=1)
+Jun 15 10:11:04.940 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000000 (size=1)
+Jun 15 10:11:04.940 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752cc0 (size=1)
+Jun 15 10:11:04.940 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000010 (size=1)
+Jun 15 10:11:04.940 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779c58 (size=1)
+Jun 15 10:11:04.940 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779c7c, value=0x00000008 (size=1)
+Jun 15 10:11:04.940 CPU0: MTS: read  access to undefined address 0x3c080004 at pc=0x60779c9c (size=1)
+Jun 15 10:11:04.940 CPU0: MTS: write access to undefined address 0x3c080004 at pc=0x60779cbc, value=0x00000002 (size=1)
+Jun 15 10:11:04.940 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:11:04.940 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:11:04.940 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x607528c0 (size=1)
+Jun 15 10:11:04.940 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000002 (size=1)
+Jun 15 10:11:04.940 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752c24 (size=1)
+Jun 15 10:11:04.940 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000000 (size=1)
+Jun 15 10:11:04.940 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a24 (size=1)
+Jun 15 10:11:04.940 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a2c, value=0x00000000 (size=1)
+Jun 15 10:11:04.940 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a4c (size=1)
+Jun 15 10:11:04.940 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a54, value=0x00000000 (size=1)
+Jun 15 10:11:04.940 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a68 (size=1)
+Jun 15 10:11:04.940 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000004 (size=1)
+Jun 15 10:11:04.940 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x607525bc (size=1)
+Jun 15 10:11:04.999 NM-1FE-TX(1): fetching init block at address 0x07de43a0
+Jun 15 10:11:04.999 NM-1FE-TX(1): rx_ring = 0x07de4400 (64), tx_ring = 0x07de4840 (128)
+Jun 15 10:11:04.999 NM-1FE-TX(1): CSR0 = 0x0101
+Jun 15 10:11:05.140 CPU0: IO_FPGA: read from unknown addr 0x16, pc=0x6090a894 (size=2)
+Jun 15 10:11:05.140 CPU0: IO_FPGA: write to unknown addr 0x16, value=0x1, pc=0x6090a89c (size=2)
+Jun 15 10:11:05.169 ROM: trying to read bootvar 'ROM_PERSISTENT_UTC'
+Jun 15 10:11:05.177 CPU0: JIT: partial JIT flush (count=750)
+Jun 15 10:11:05.485 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779ab8 (size=1)
+Jun 15 10:11:05.485 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000000 (size=1)
+Jun 15 10:11:05.485 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:11:05.485 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:11:05.485 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x60752ae4 (size=1)
+Jun 15 10:11:05.485 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000000 (size=1)
+Jun 15 10:11:05.486 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752cc0 (size=1)
+Jun 15 10:11:05.486 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000010 (size=1)
+Jun 15 10:11:05.488 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779c58 (size=1)
+Jun 15 10:11:05.488 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779c7c, value=0x00000008 (size=1)
+Jun 15 10:11:05.488 CPU0: MTS: read  access to undefined address 0x3c080004 at pc=0x60779c9c (size=1)
+Jun 15 10:11:05.488 CPU0: MTS: write access to undefined address 0x3c080004 at pc=0x60779cbc, value=0x00000002 (size=1)
+Jun 15 10:11:05.489 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:11:05.489 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:11:05.489 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x607528c0 (size=1)
+Jun 15 10:11:05.489 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000002 (size=1)
+Jun 15 10:11:05.489 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752c24 (size=1)
+Jun 15 10:11:05.489 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000000 (size=1)
+Jun 15 10:11:05.489 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a24 (size=1)
+Jun 15 10:11:05.489 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a2c, value=0x00000000 (size=1)
+Jun 15 10:11:05.489 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a4c (size=1)
+Jun 15 10:11:05.489 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a54, value=0x00000000 (size=1)
+Jun 15 10:11:05.489 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a68 (size=1)
+Jun 15 10:11:05.489 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000004 (size=1)
+Jun 15 10:11:05.490 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x607525bc (size=1)
+Jun 15 10:11:05.544 CPU0: JIT: flushing data structures (compiled pages=1030)
+Jun 15 10:11:05.572 ROM: trying to set bootvar 'BSI=0'
+Jun 15 10:11:05.577 ROM: trying to read bootvar 'RET_2_RCALTS'
+Jun 15 10:11:05.577 ROM: trying to set bootvar 'RET_2_RCALTS='
+Jun 15 10:11:05.694 ROM: trying to read bootvar 'RANDOM_NUM'
+Jun 15 10:11:34.254 CPU0: JIT: partial JIT flush (count=690)
+Jun 15 10:11:35.684 ROM: trying to set bootvar 'RANDOM_NUM=992542115'
+Jun 15 10:13:36.555 C3725_STOP: stopping simulation.
+Jun 15 10:13:36.555 CPU0: CPU_STATE: Halting CPU (old state=0)...
+Jun 15 10:13:36.578 DEVICE: Removal of device WIC-1T(0), fd=-1, host_addr=0x0, flags=0
+Jun 15 10:13:36.578 VM: shutdown procedure engaged.
+Jun 15 10:13:36.578 VM_OBJECT: Shutdown of object "slot1"
+Jun 15 10:13:36.578 DEVICE: Removal of device slot1, fd=-1, host_addr=0x0, flags=2
+Jun 15 10:13:36.578 VM_OBJECT: Shutdown of object "slot0"
+Jun 15 10:13:36.578 DEVICE: Removal of device slot0, fd=-1, host_addr=0x0, flags=2
+Jun 15 10:13:36.578 VM_OBJECT: Shutdown of object "ns16552"
+Jun 15 10:13:36.578 DEVICE: Removal of device ns16552, fd=-1, host_addr=0x0, flags=0
+Jun 15 10:13:36.578 VM_OBJECT: Shutdown of object "mem_bswap"
+Jun 15 10:13:36.578 DEVICE: Removal of device mem_bswap, fd=-1, host_addr=0x0, flags=0
+Jun 15 10:13:36.578 VM_OBJECT: Shutdown of object "rom"
+Jun 15 10:13:36.578 DEVICE: Removal of device rom, fd=15, host_addr=0xf2990000, flags=1
+Jun 15 10:13:36.578 MMAP: unmapping of device 'rom', fd=15, host_addr=0xf2990000, len=0x200000
+Jun 15 10:13:36.578 VM_OBJECT: Shutdown of object "ram"
+Jun 15 10:13:36.578 DEVICE: Removal of device ram, fd=14, host_addr=0xf2b90000, flags=2
+Jun 15 10:13:36.578 MMAP: unmapping of device 'ram', fd=14, host_addr=0xf2b90000, len=0x8000000
+Jun 15 10:13:36.610 VM_OBJECT: Shutdown of object "gt96100"
+Jun 15 10:13:36.610 DEVICE: Removal of device gt96100, fd=-1, host_addr=0x0, flags=0
+Jun 15 10:13:36.610 VM_OBJECT: Shutdown of object "io_fpga"
+Jun 15 10:13:36.610 DEVICE: Removal of device io_fpga, fd=-1, host_addr=0x0, flags=0
+Jun 15 10:13:36.610 VM_OBJECT: Shutdown of object "ssa"
+Jun 15 10:13:36.610 DEVICE: Removal of device ssa, fd=13, host_addr=0xfab90000, flags=2
+Jun 15 10:13:36.610 MMAP: unmapping of device 'ssa', fd=13, host_addr=0xfab90000, len=0x7000
+Jun 15 10:13:36.610 VM_OBJECT: Shutdown of object "remote_ctrl"
+Jun 15 10:13:36.610 DEVICE: Removal of device remote_ctrl, fd=-1, host_addr=0x0, flags=0
+Jun 15 10:13:36.610 VM: removing PCI busses.
+Jun 15 10:13:36.610 VM: deleting VTTY.
+Jun 15 10:13:36.610 VTTY: Console port: closing FD 12
+Jun 15 10:13:36.610 VM: deleting system CPUs.
+Jun 15 10:13:36.610 CPU0: CPU_STATE: Halting CPU (old state=1)...
+Jun 15 10:13:36.638 VM: shutdown procedure completed.
+Jun 15 10:19:35.337 VTTY: Console port: waiting connection on tcp port 5008 for protocol IPv4 (FD 13)
+Jun 15 10:19:35.372 slot0: C/H/S settings = 0/4/32
+Jun 15 10:19:35.373 slot1: C/H/S settings = 0/4/32
+Jun 15 10:19:35.774 C3725_BOOT: starting instance (CPU0 PC=0xffffffffbfc00000,idle_pc=0x0,JIT on)
+Jun 15 10:19:35.774 CPU0: CPU_STATE: Starting CPU (old state=2)...
+Jun 15 10:19:35.939 ROM: Microcode has started.
+Jun 15 10:19:35.942 ROM: trying to read bootvar 'WARM_REBOOT'
+Jun 15 10:19:36.002 CPU0: IO_FPGA: write to unknown addr 0x34, value=0x22, pc=0x60270bf4 (size=2)
+Jun 15 10:19:36.002 ROM: unhandled syscall 0x00000047 at pc=0x60bf2ab4 (a1=0x80007df4,a2=0x6392acb4,a3=0x0000011c)
+Jun 15 10:19:36.283 ROM: trying to read bootvar 'RANDOM_NUM'
+Jun 15 10:19:36.299 CPU0: PCI: read request for device 'gt96100' at pc=0x6027c7e4: bus=0,device=0,function=0,reg=0x00
+Jun 15 10:19:36.299 CPU0: PCI: read request for device 'gt96100' at pc=0x6027c7e8: bus=0,device=0,function=0,reg=0x00
+Jun 15 10:19:36.299 CPU0: PCI: read request for device 'gt96100' at pc=0x6027c598: bus=0,device=0,function=0,reg=0x08
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x10
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x10
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x90
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x90
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0x10000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x14
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0x10000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x14
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0x10000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x94
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0x10000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x94
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0x14000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x20
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0x14000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x20
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0x14000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0xa0
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0x14000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0xa0
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0x00000146) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x04
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0x00000146) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x04
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0x00000146) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x84
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0x00000146) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x84
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0x00000007) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x0c
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0x00000007) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x0c
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0x00000007) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x8c
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0x00000007) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x8c
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x10
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x10
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x90
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x90
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0x20000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x14
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0x20000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x14
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0x20000000) for device 'gt96100' at pc=0x6027c6e0: bus=0,device=0,function=0,reg=0x94
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0x20000000) for device 'gt96100' at pc=0x6027c6e4: bus=0,device=0,function=0,reg=0x94
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0xc0000000) for unknown device at pc=0x6027c6e0 (bus=0,device=0,function=1,reg=0x10).
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0xc0000000) for unknown device at pc=0x6027c6e4 (bus=0,device=0,function=1,reg=0x10).
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0xc0000000) for unknown device at pc=0x6027c6e0 (bus=0,device=0,function=1,reg=0x90).
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0xc0000000) for unknown device at pc=0x6027c6e4 (bus=0,device=0,function=1,reg=0x90).
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0xe0000000) for unknown device at pc=0x6027c6e0 (bus=0,device=0,function=1,reg=0x14).
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0xe0000000) for unknown device at pc=0x6027c6e4 (bus=0,device=0,function=1,reg=0x14).
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0xe0000000) for unknown device at pc=0x6027c6e0 (bus=0,device=0,function=1,reg=0x94).
+Jun 15 10:19:36.299 CPU0: PCI: write request (data=0xe0000000) for unknown device at pc=0x6027c6e4 (bus=0,device=0,function=1,reg=0x94).
+Jun 15 10:19:36.299 CPU0: IO_FPGA: write to unknown addr 0x32, value=0x40, pc=0x60279b44 (size=2)
+Jun 15 10:19:36.299 CPU0: IO_FPGA: read from unknown addr 0x16, pc=0x60292370 (size=2)
+Jun 15 10:19:36.299 CPU0: IO_FPGA: read from unknown addr 0x16, pc=0x6029239c (size=2)
+Jun 15 10:19:36.299 CPU0: IO_FPGA: write to unknown addr 0x16, value=0x0, pc=0x602923b0 (size=2)
+Jun 15 10:19:36.300 CPU0: MTS: read  access to undefined address 0x3c080000 at pc=0x602923e4 (size=1)
+Jun 15 10:19:36.302 ROM: unhandled syscall 0x0000003e at pc=0x60bf2ab4 (a1=0x80007de4,a2=0x6392ac90,a3=0x000000f8)
+Jun 15 10:19:36.302 ROM: unhandled syscall 0x00000047 at pc=0x60bf2ab4 (a1=0x80007dec,a2=0x6392acb4,a3=0x0000011c)
+Jun 15 10:19:37.091 ROM: trying to read bootvar 'BOOT'
+Jun 15 10:19:37.091 ROM: trying to read bootvar 'CONFIG_FILE'
+Jun 15 10:19:37.091 ROM: trying to read bootvar 'BOOTLDR'
+Jun 15 10:19:37.091 ROM: trying to read bootvar 'RSHELF'
+Jun 15 10:19:37.091 ROM: trying to read bootvar 'DSHELF'
+Jun 15 10:19:37.091 ROM: trying to read bootvar 'DSHELFINFO'
+Jun 15 10:19:37.091 ROM: trying to read bootvar 'RESET_COUNTER'
+Jun 15 10:19:37.091 ROM: trying to read bootvar 'CHRG_LOCRECSN'
+Jun 15 10:19:37.091 ROM: trying to read bootvar 'CHRG_ID'
+Jun 15 10:19:37.091 ROM: trying to read bootvar 'SLOTCACHE'
+Jun 15 10:19:37.091 ROM: trying to read bootvar 'OVERTEMP'
+Jun 15 10:19:37.091 ROM: trying to read bootvar 'DIAG'
+Jun 15 10:19:37.091 ROM: trying to read bootvar 'DIAMETER_ORIGIN_ID'
+Jun 15 10:19:37.091 ROM: trying to read bootvar 'WARM_REBOOT'
+Jun 15 10:19:37.188 CPU0: IO_FPGA: read from unknown addr 0x16, pc=0x6090a8d4 (size=2)
+Jun 15 10:19:37.188 CPU0: MTS: read  access to undefined address 0x3c080022 at pc=0x6090a4c4 (size=1)
+Jun 15 10:19:37.188 CPU0: MTS: read  access to undefined address 0x3c080023 at pc=0x6090a54c (size=1)
+Jun 15 10:19:37.188 CPU0: MTS: write access to undefined address 0x3c080023 at pc=0x6090a558, value=0x00000000 (size=1)
+Jun 15 10:19:37.188 CPU0: MTS: read  access to undefined address 0x3c080023 at pc=0x6090a564 (size=1)
+Jun 15 10:19:37.188 CPU0: MTS: write access to undefined address 0x3c080023 at pc=0x6090a574, value=0x00000080 (size=1)
+Jun 15 10:19:37.188 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x6090c35c (size=1)
+Jun 15 10:19:37.188 CPU0: MTS: write access to undefined address 0x3c000002 at pc=0x6090c368, value=0x00000080 (size=1)
+Jun 15 10:19:37.188 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x6090c36c (size=1)
+Jun 15 10:19:37.229 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x6090c398 (size=1)
+Jun 15 10:19:37.280 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x6090c398 (size=1)
+Jun 15 10:19:37.320 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x6090c398 (size=1)
+Jun 15 10:19:37.364 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x6090c398 (size=1)
+Jun 15 10:19:37.404 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x6090c398 (size=1)
+Jun 15 10:19:37.448 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x6090c398 (size=1)
+Jun 15 10:19:37.448 CPU0: MTS: write access to undefined address 0x3c080007 at pc=0x6090a660, value=0x00000002 (size=1)
+Jun 15 10:19:37.448 CPU0: MTS: write access to undefined address 0x3c080008 at pc=0x6090a668, value=0x00000002 (size=1)
+Jun 15 10:19:37.448 CPU0: MTS: write access to undefined address 0x3c080009 at pc=0x6090a670, value=0x00000002 (size=1)
+Jun 15 10:19:37.448 CPU0: MTS: write access to undefined address 0x3c08000a at pc=0x6090a674, value=0x00000002 (size=1)
+Jun 15 10:19:37.448 CPU0: MTS: write access to undefined address 0x3c08000b at pc=0x6090a678, value=0x00000002 (size=1)
+Jun 15 10:19:37.448 CPU0: MTS: write access to undefined address 0x3c08000c at pc=0x6090a67c, value=0x00000002 (size=1)
+Jun 15 10:19:37.448 CPU0: MTS: read  access to undefined address 0x3c080022 at pc=0x6090b588 (size=1)
+Jun 15 10:19:37.499 CPU0: JIT: partial JIT flush (count=767)
+Jun 15 10:19:37.730 CPU0: MTS: read  access to undefined address 0x3c080004 at pc=0x607543f0 (size=1)
+Jun 15 10:19:37.730 CPU0: MTS: write access to undefined address 0x3c080004 at pc=0x607543f8, value=0x00000004 (size=1)
+Jun 15 10:19:37.732 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779c58 (size=1)
+Jun 15 10:19:37.732 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779c7c, value=0x00000008 (size=1)
+Jun 15 10:19:37.732 CPU0: MTS: read  access to undefined address 0x3c080004 at pc=0x60779c9c (size=1)
+Jun 15 10:19:37.732 CPU0: MTS: write access to undefined address 0x3c080004 at pc=0x60779cbc, value=0x00000002 (size=1)
+Jun 15 10:19:37.733 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:19:37.733 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:19:37.733 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x607528c0 (size=1)
+Jun 15 10:19:37.733 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000002 (size=1)
+Jun 15 10:19:37.733 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752c24 (size=1)
+Jun 15 10:19:37.733 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000000 (size=1)
+Jun 15 10:19:37.733 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a24 (size=1)
+Jun 15 10:19:37.733 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a2c, value=0x00000000 (size=1)
+Jun 15 10:19:37.733 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a4c (size=1)
+Jun 15 10:19:37.733 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a54, value=0x00000000 (size=1)
+Jun 15 10:19:37.733 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a68 (size=1)
+Jun 15 10:19:37.733 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000004 (size=1)
+Jun 15 10:19:37.733 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x607525bc (size=1)
+Jun 15 10:19:37.734 CPU0: PCI: read request for device 'NM-1FE-TX(1)' at pc=0x6027c7f4: bus=0,device=6,function=0,reg=0x00
+Jun 15 10:19:37.734 CPU0: PCI: read request for device 'NM-1FE-TX(1)' at pc=0x6027c7f8: bus=0,device=6,function=0,reg=0x00
+Jun 15 10:19:37.735 CPU0: PCI: read request for device 'NM-1FE-TX(1)' at pc=0x6027c7f4: bus=0,device=6,function=0,reg=0x00
+Jun 15 10:19:37.735 CPU0: PCI: read request for device 'NM-1FE-TX(1)' at pc=0x6027c7f8: bus=0,device=6,function=0,reg=0x00
+Jun 15 10:19:37.735 CPU0: PCI: write request (data=0x4d000000) for device 'NM-1FE-TX(1)' at pc=0x6027c6c0: bus=0,device=6,function=0,reg=0x14
+Jun 15 10:19:37.735 NM-1FE-TX(1): registers are mapped at 0x4d000000
+Jun 15 10:19:37.735 CPU0: PCI: write request (data=0x4d000000) for device 'NM-1FE-TX(1)' at pc=0x6027c6cc: bus=0,device=6,function=0,reg=0x14
+Jun 15 10:19:37.735 NM-1FE-TX(1): registers are mapped at 0x4d000000
+Jun 15 10:19:37.735 CPU0: PCI: write request (data=0x00000006) for device 'NM-1FE-TX(1)' at pc=0x6027c6c0: bus=0,device=6,function=0,reg=0x04
+Jun 15 10:19:37.735 CPU0: PCI: write request (data=0x00000006) for device 'NM-1FE-TX(1)' at pc=0x6027c6cc: bus=0,device=6,function=0,reg=0x04
+Jun 15 10:19:37.735 CPU0: PCI: write request (data=0x00004000) for device 'NM-1FE-TX(1)' at pc=0x6027c6c0: bus=0,device=6,function=0,reg=0x0c
+Jun 15 10:19:37.735 CPU0: PCI: write request (data=0x00004000) for device 'NM-1FE-TX(1)' at pc=0x6027c6cc: bus=0,device=6,function=0,reg=0x0c
+Jun 15 10:19:37.735 CPU0: PCI: read request for device 'NM-1FE-TX(1)' at pc=0x6027c7f4: bus=0,device=6,function=0,reg=0x00
+Jun 15 10:19:37.735 CPU0: PCI: read request for device 'NM-1FE-TX(1)' at pc=0x6027c7f8: bus=0,device=6,function=0,reg=0x00
+Jun 15 10:19:37.735 CPU0: PCI: write request (data=0x00004000) for device 'NM-1FE-TX(1)' at pc=0x6027c6c0: bus=0,device=6,function=0,reg=0x0c
+Jun 15 10:19:37.735 CPU0: PCI: write request (data=0x00004000) for device 'NM-1FE-TX(1)' at pc=0x6027c6cc: bus=0,device=6,function=0,reg=0x0c
+Jun 15 10:19:37.740 NM-1FE-TX(1): fetching init block at address 0x07de43a0
+Jun 15 10:19:37.740 NM-1FE-TX(1): rx_ring = 0x07de4400 (64), tx_ring = 0x07de4840 (128)
+Jun 15 10:19:37.740 NM-1FE-TX(1): CSR0 = 0x0101
+Jun 15 10:19:37.753 CPU0: IO_FPGA: write to unknown addr 0x34, value=0x33, pc=0x6026e0e0 (size=2)
+Jun 15 10:19:37.755 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779ab8 (size=1)
+Jun 15 10:19:37.755 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000000 (size=1)
+Jun 15 10:19:37.755 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:19:37.755 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:19:37.755 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x60752ae4 (size=1)
+Jun 15 10:19:37.755 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000000 (size=1)
+Jun 15 10:19:37.755 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752cc0 (size=1)
+Jun 15 10:19:37.755 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000010 (size=1)
+Jun 15 10:19:37.755 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779c58 (size=1)
+Jun 15 10:19:37.755 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779c7c, value=0x00000008 (size=1)
+Jun 15 10:19:37.755 CPU0: MTS: read  access to undefined address 0x3c080004 at pc=0x60779c9c (size=1)
+Jun 15 10:19:37.755 CPU0: MTS: write access to undefined address 0x3c080004 at pc=0x60779cbc, value=0x00000002 (size=1)
+Jun 15 10:19:37.755 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:19:37.755 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:19:37.755 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x607528c0 (size=1)
+Jun 15 10:19:37.755 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000002 (size=1)
+Jun 15 10:19:37.755 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752c24 (size=1)
+Jun 15 10:19:37.755 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000000 (size=1)
+Jun 15 10:19:37.755 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a24 (size=1)
+Jun 15 10:19:37.755 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a2c, value=0x00000000 (size=1)
+Jun 15 10:19:37.755 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a4c (size=1)
+Jun 15 10:19:37.755 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a54, value=0x00000000 (size=1)
+Jun 15 10:19:37.755 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a68 (size=1)
+Jun 15 10:19:37.755 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000004 (size=1)
+Jun 15 10:19:37.755 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x607525bc (size=1)
+Jun 15 10:19:37.756 NM-1FE-TX(1): fetching init block at address 0x07de43a0
+Jun 15 10:19:37.756 NM-1FE-TX(1): rx_ring = 0x07de4400 (64), tx_ring = 0x07de4840 (128)
+Jun 15 10:19:37.756 NM-1FE-TX(1): CSR0 = 0x0101
+Jun 15 10:19:37.843 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779ab8 (size=1)
+Jun 15 10:19:37.843 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000000 (size=1)
+Jun 15 10:19:37.843 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:19:37.843 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:19:37.843 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x60752ae4 (size=1)
+Jun 15 10:19:37.843 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000000 (size=1)
+Jun 15 10:19:37.843 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752cc0 (size=1)
+Jun 15 10:19:37.843 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000010 (size=1)
+Jun 15 10:19:37.843 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779c58 (size=1)
+Jun 15 10:19:37.843 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779c7c, value=0x00000008 (size=1)
+Jun 15 10:19:37.843 CPU0: MTS: read  access to undefined address 0x3c080004 at pc=0x60779c9c (size=1)
+Jun 15 10:19:37.843 CPU0: MTS: write access to undefined address 0x3c080004 at pc=0x60779cbc, value=0x00000002 (size=1)
+Jun 15 10:19:37.843 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:19:37.843 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:19:37.843 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x607528c0 (size=1)
+Jun 15 10:19:37.843 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000002 (size=1)
+Jun 15 10:19:37.843 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752c24 (size=1)
+Jun 15 10:19:37.843 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000000 (size=1)
+Jun 15 10:19:37.843 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a24 (size=1)
+Jun 15 10:19:37.843 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a2c, value=0x00000000 (size=1)
+Jun 15 10:19:37.843 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a4c (size=1)
+Jun 15 10:19:37.843 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a54, value=0x00000000 (size=1)
+Jun 15 10:19:37.843 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a68 (size=1)
+Jun 15 10:19:37.843 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000004 (size=1)
+Jun 15 10:19:37.843 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x607525bc (size=1)
+Jun 15 10:19:37.844 NM-1FE-TX(1): fetching init block at address 0x07de43a0
+Jun 15 10:19:37.844 NM-1FE-TX(1): rx_ring = 0x07de4400 (64), tx_ring = 0x07de4840 (128)
+Jun 15 10:19:37.844 NM-1FE-TX(1): CSR0 = 0x0101
+Jun 15 10:19:37.867 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779ab8 (size=1)
+Jun 15 10:19:37.868 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000000 (size=1)
+Jun 15 10:19:37.868 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:19:37.868 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:19:37.868 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x60752ae4 (size=1)
+Jun 15 10:19:37.868 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000000 (size=1)
+Jun 15 10:19:37.868 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752cc0 (size=1)
+Jun 15 10:19:37.868 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000010 (size=1)
+Jun 15 10:19:37.868 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779c58 (size=1)
+Jun 15 10:19:37.868 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779c7c, value=0x00000008 (size=1)
+Jun 15 10:19:37.868 CPU0: MTS: read  access to undefined address 0x3c080004 at pc=0x60779c9c (size=1)
+Jun 15 10:19:37.868 CPU0: MTS: write access to undefined address 0x3c080004 at pc=0x60779cbc, value=0x00000002 (size=1)
+Jun 15 10:19:37.868 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:19:37.868 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:19:37.868 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x607528c0 (size=1)
+Jun 15 10:19:37.868 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000002 (size=1)
+Jun 15 10:19:37.868 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752c24 (size=1)
+Jun 15 10:19:37.868 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000000 (size=1)
+Jun 15 10:19:37.868 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a24 (size=1)
+Jun 15 10:19:37.868 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a2c, value=0x00000000 (size=1)
+Jun 15 10:19:37.868 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a4c (size=1)
+Jun 15 10:19:37.868 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a54, value=0x00000000 (size=1)
+Jun 15 10:19:37.868 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a68 (size=1)
+Jun 15 10:19:37.868 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000004 (size=1)
+Jun 15 10:19:37.868 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x607525bc (size=1)
+Jun 15 10:19:37.869 NM-1FE-TX(1): fetching init block at address 0x07de43a0
+Jun 15 10:19:37.869 NM-1FE-TX(1): rx_ring = 0x07de4400 (64), tx_ring = 0x07de4840 (128)
+Jun 15 10:19:37.869 NM-1FE-TX(1): CSR0 = 0x0101
+Jun 15 10:19:37.874 CPU0: JIT: flushing data structures (compiled pages=900)
+Jun 15 10:19:37.878 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779ab8 (size=1)
+Jun 15 10:19:37.878 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000000 (size=1)
+Jun 15 10:19:37.879 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:19:37.879 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:19:37.879 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x60752ae4 (size=1)
+Jun 15 10:19:37.879 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000000 (size=1)
+Jun 15 10:19:37.879 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752cc0 (size=1)
+Jun 15 10:19:37.879 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000010 (size=1)
+Jun 15 10:19:37.881 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779c58 (size=1)
+Jun 15 10:19:37.881 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779c7c, value=0x00000008 (size=1)
+Jun 15 10:19:37.881 CPU0: MTS: read  access to undefined address 0x3c080004 at pc=0x60779c9c (size=1)
+Jun 15 10:19:37.881 CPU0: MTS: write access to undefined address 0x3c080004 at pc=0x60779cbc, value=0x00000002 (size=1)
+Jun 15 10:19:37.883 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:19:37.883 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:19:37.883 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x607528c0 (size=1)
+Jun 15 10:19:37.883 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000002 (size=1)
+Jun 15 10:19:37.883 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752c24 (size=1)
+Jun 15 10:19:37.883 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000000 (size=1)
+Jun 15 10:19:37.883 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a24 (size=1)
+Jun 15 10:19:37.883 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a2c, value=0x00000000 (size=1)
+Jun 15 10:19:37.883 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a4c (size=1)
+Jun 15 10:19:37.883 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a54, value=0x00000000 (size=1)
+Jun 15 10:19:37.883 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a68 (size=1)
+Jun 15 10:19:37.883 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000004 (size=1)
+Jun 15 10:19:37.883 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x607525bc (size=1)
+Jun 15 10:19:37.893 NM-1FE-TX(1): fetching init block at address 0x07de43a0
+Jun 15 10:19:37.893 NM-1FE-TX(1): rx_ring = 0x07de4400 (64), tx_ring = 0x07de4840 (128)
+Jun 15 10:19:37.893 NM-1FE-TX(1): CSR0 = 0x0101
+Jun 15 10:19:37.938 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779ab8 (size=1)
+Jun 15 10:19:37.938 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000000 (size=1)
+Jun 15 10:19:37.938 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:19:37.938 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:19:37.938 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x60752ae4 (size=1)
+Jun 15 10:19:37.938 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000000 (size=1)
+Jun 15 10:19:37.938 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752cc0 (size=1)
+Jun 15 10:19:37.938 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000010 (size=1)
+Jun 15 10:19:37.938 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779c58 (size=1)
+Jun 15 10:19:37.938 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779c7c, value=0x00000008 (size=1)
+Jun 15 10:19:37.938 CPU0: MTS: read  access to undefined address 0x3c080004 at pc=0x60779c9c (size=1)
+Jun 15 10:19:37.938 CPU0: MTS: write access to undefined address 0x3c080004 at pc=0x60779cbc, value=0x00000002 (size=1)
+Jun 15 10:19:37.938 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:19:37.938 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:19:37.938 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x607528c0 (size=1)
+Jun 15 10:19:37.938 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000002 (size=1)
+Jun 15 10:19:37.938 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752c24 (size=1)
+Jun 15 10:19:37.938 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000000 (size=1)
+Jun 15 10:19:37.938 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a24 (size=1)
+Jun 15 10:19:37.938 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a2c, value=0x00000000 (size=1)
+Jun 15 10:19:37.938 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a4c (size=1)
+Jun 15 10:19:37.938 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a54, value=0x00000000 (size=1)
+Jun 15 10:19:37.938 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a68 (size=1)
+Jun 15 10:19:37.938 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000004 (size=1)
+Jun 15 10:19:37.938 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x607525bc (size=1)
+Jun 15 10:19:37.939 NM-1FE-TX(1): fetching init block at address 0x07de43a0
+Jun 15 10:19:37.939 NM-1FE-TX(1): rx_ring = 0x07de4400 (64), tx_ring = 0x07de4840 (128)
+Jun 15 10:19:37.939 NM-1FE-TX(1): CSR0 = 0x0101
+Jun 15 10:19:38.244 CPU0: JIT: partial JIT flush (count=749)
+Jun 15 10:19:38.440 CPU0: JIT: flushing data structures (compiled pages=934)
+Jun 15 10:19:38.790 CPU0: JIT: partial JIT flush (count=695)
+Jun 15 10:19:39.009 ROM: trying to read bootvar 'PMDEBUG'
+Jun 15 10:19:39.016 ROM: trying to read bootvar 'MONDEBUG'
+Jun 15 10:19:39.324 CPU0: JIT: flushing data structures (compiled pages=982)
+Jun 15 10:19:39.539 ROM: unhandled syscall 0x0000001a at pc=0x60bf2ab4 (a1=0x6626cb14,a2=0x6392ac00,a3=0x00000068)
+Jun 15 10:19:39.539 ROM: unhandled syscall 0x00000009 at pc=0x60bf2ab4 (a1=0x6626cb14,a2=0x6392abbc,a3=0x00000024)
+Jun 15 10:19:39.622 CPU0: JIT: partial JIT flush (count=774)
+Jun 15 10:19:39.859 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779ab8 (size=1)
+Jun 15 10:19:39.859 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000000 (size=1)
+Jun 15 10:19:39.859 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:19:39.859 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:19:39.859 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x60752ae4 (size=1)
+Jun 15 10:19:39.859 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000000 (size=1)
+Jun 15 10:19:39.859 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752cc0 (size=1)
+Jun 15 10:19:39.859 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000010 (size=1)
+Jun 15 10:19:39.860 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779c58 (size=1)
+Jun 15 10:19:39.861 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779c7c, value=0x00000008 (size=1)
+Jun 15 10:19:39.861 CPU0: MTS: read  access to undefined address 0x3c080004 at pc=0x60779c9c (size=1)
+Jun 15 10:19:39.861 CPU0: MTS: write access to undefined address 0x3c080004 at pc=0x60779cbc, value=0x00000002 (size=1)
+Jun 15 10:19:39.861 CPU0: JIT: flushing data structures (compiled pages=1002)
+Jun 15 10:19:39.864 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:19:39.864 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:19:39.864 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x607528c0 (size=1)
+Jun 15 10:19:39.864 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000002 (size=1)
+Jun 15 10:19:39.864 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752c24 (size=1)
+Jun 15 10:19:39.864 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000000 (size=1)
+Jun 15 10:19:39.864 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a24 (size=1)
+Jun 15 10:19:39.864 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a2c, value=0x00000000 (size=1)
+Jun 15 10:19:39.864 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a4c (size=1)
+Jun 15 10:19:39.864 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a54, value=0x00000000 (size=1)
+Jun 15 10:19:39.864 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a68 (size=1)
+Jun 15 10:19:39.864 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000004 (size=1)
+Jun 15 10:19:39.864 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x607525bc (size=1)
+Jun 15 10:19:39.951 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779ab8 (size=1)
+Jun 15 10:19:39.951 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000000 (size=1)
+Jun 15 10:19:39.951 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:19:39.951 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:19:39.951 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x60752ae4 (size=1)
+Jun 15 10:19:39.951 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000000 (size=1)
+Jun 15 10:19:39.951 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752cc0 (size=1)
+Jun 15 10:19:39.951 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000010 (size=1)
+Jun 15 10:19:39.951 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779c58 (size=1)
+Jun 15 10:19:39.951 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779c7c, value=0x00000008 (size=1)
+Jun 15 10:19:39.951 CPU0: MTS: read  access to undefined address 0x3c080004 at pc=0x60779c9c (size=1)
+Jun 15 10:19:39.951 CPU0: MTS: write access to undefined address 0x3c080004 at pc=0x60779cbc, value=0x00000002 (size=1)
+Jun 15 10:19:39.952 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:19:39.952 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:19:39.952 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x607528c0 (size=1)
+Jun 15 10:19:39.952 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000002 (size=1)
+Jun 15 10:19:39.952 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752c24 (size=1)
+Jun 15 10:19:39.952 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000000 (size=1)
+Jun 15 10:19:39.952 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a24 (size=1)
+Jun 15 10:19:39.952 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a2c, value=0x00000000 (size=1)
+Jun 15 10:19:39.952 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a4c (size=1)
+Jun 15 10:19:39.952 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a54, value=0x00000000 (size=1)
+Jun 15 10:19:39.952 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a68 (size=1)
+Jun 15 10:19:39.952 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000004 (size=1)
+Jun 15 10:19:39.952 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x607525bc (size=1)
+Jun 15 10:19:39.985 NM-1FE-TX(1): fetching init block at address 0x07de43a0
+Jun 15 10:19:39.985 NM-1FE-TX(1): rx_ring = 0x07de4400 (64), tx_ring = 0x07de4840 (128)
+Jun 15 10:19:39.985 NM-1FE-TX(1): CSR0 = 0x0101
+Jun 15 10:19:40.065 CPU0: IO_FPGA: read from unknown addr 0x16, pc=0x6090a894 (size=2)
+Jun 15 10:19:40.065 CPU0: IO_FPGA: write to unknown addr 0x16, value=0x1, pc=0x6090a89c (size=2)
+Jun 15 10:19:40.090 ROM: trying to read bootvar 'ROM_PERSISTENT_UTC'
+Jun 15 10:19:40.091 CPU0: JIT: partial JIT flush (count=758)
+Jun 15 10:19:40.342 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779ab8 (size=1)
+Jun 15 10:19:40.342 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000000 (size=1)
+Jun 15 10:19:40.342 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:19:40.342 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:19:40.342 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x60752ae4 (size=1)
+Jun 15 10:19:40.342 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000000 (size=1)
+Jun 15 10:19:40.342 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752cc0 (size=1)
+Jun 15 10:19:40.342 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000010 (size=1)
+Jun 15 10:19:40.344 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779c58 (size=1)
+Jun 15 10:19:40.344 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779c7c, value=0x00000008 (size=1)
+Jun 15 10:19:40.344 CPU0: MTS: read  access to undefined address 0x3c080004 at pc=0x60779c9c (size=1)
+Jun 15 10:19:40.344 CPU0: MTS: write access to undefined address 0x3c080004 at pc=0x60779cbc, value=0x00000002 (size=1)
+Jun 15 10:19:40.344 CPU0: MTS: read  access to undefined address 0x3c080025 at pc=0x607527c8 (size=1)
+Jun 15 10:19:40.344 CPU0: MTS: write access to undefined address 0x3c080025 at pc=0x607527d4, value=0x00000000 (size=1)
+Jun 15 10:19:40.344 CPU0: MTS: read  access to undefined address 0x3c080026 at pc=0x607528c0 (size=1)
+Jun 15 10:19:40.344 CPU0: MTS: write access to undefined address 0x3c080026 at pc=0x60752af0, value=0x00000002 (size=1)
+Jun 15 10:19:40.344 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x60752c24 (size=1)
+Jun 15 10:19:40.344 CPU0: MTS: write access to undefined address 0x3c08001f at pc=0x60752c30, value=0x00000000 (size=1)
+Jun 15 10:19:40.344 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a24 (size=1)
+Jun 15 10:19:40.344 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a2c, value=0x00000000 (size=1)
+Jun 15 10:19:40.344 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a4c (size=1)
+Jun 15 10:19:40.344 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779a54, value=0x00000000 (size=1)
+Jun 15 10:19:40.344 CPU0: MTS: read  access to undefined address 0x3c080001 at pc=0x60779a68 (size=1)
+Jun 15 10:19:40.344 CPU0: MTS: write access to undefined address 0x3c080001 at pc=0x60779aec, value=0x00000004 (size=1)
+Jun 15 10:19:40.344 CPU0: MTS: read  access to undefined address 0x3c08001f at pc=0x607525bc (size=1)
+Jun 15 10:19:40.366 CPU0: JIT: flushing data structures (compiled pages=1032)
+Jun 15 10:19:40.379 ROM: trying to set bootvar 'BSI=0'
+Jun 15 10:19:40.449 ROM: trying to read bootvar 'RET_2_RCALTS'
+Jun 15 10:19:40.450 ROM: trying to set bootvar 'RET_2_RCALTS='
+Jun 15 10:19:40.608 ROM: trying to read bootvar 'RANDOM_NUM'
+Jun 15 10:20:10.599 ROM: trying to set bootvar 'RANDOM_NUM=1387434130'
+Jun 15 10:20:37.336 CPU0: JIT: partial JIT flush (count=672)
+Jun 15 10:22:41.164 VTTY: Console port is now connected (accept_fd=13,conn_fd=20)
+Jun 15 10:26:07.093 ROM: trying to read bootvar 'WARM_REBOOT'
+Jun 15 10:26:07.102 CPU0: JIT: flushing data structures (compiled pages=1087)
+Jun 15 10:26:08.286 CPU0: JIT: partial JIT flush (count=797)
+Jun 15 10:26:08.567 CPU0: JIT: flushing data structures (compiled pages=1101)
+Jun 15 10:27:30.564 C3725_STOP: stopping simulation.
+Jun 15 10:27:30.564 CPU0: CPU_STATE: Halting CPU (old state=0)...
+Jun 15 10:27:30.586 DEVICE: Removal of device WIC-1T(0), fd=-1, host_addr=0x0, flags=0
+Jun 15 10:27:30.586 VM: shutdown procedure engaged.
+Jun 15 10:27:30.586 VM_OBJECT: Shutdown of object "slot1"
+Jun 15 10:27:30.586 DEVICE: Removal of device slot1, fd=-1, host_addr=0x0, flags=2
+Jun 15 10:27:30.586 VM_OBJECT: Shutdown of object "slot0"
+Jun 15 10:27:30.586 DEVICE: Removal of device slot0, fd=-1, host_addr=0x0, flags=2
+Jun 15 10:27:30.586 VM_OBJECT: Shutdown of object "ns16552"
+Jun 15 10:27:30.586 DEVICE: Removal of device ns16552, fd=-1, host_addr=0x0, flags=0
+Jun 15 10:27:30.586 VM_OBJECT: Shutdown of object "mem_bswap"
+Jun 15 10:27:30.586 DEVICE: Removal of device mem_bswap, fd=-1, host_addr=0x0, flags=0
+Jun 15 10:27:30.586 VM_OBJECT: Shutdown of object "rom"
+Jun 15 10:27:30.586 DEVICE: Removal of device rom, fd=16, host_addr=0xf2a30000, flags=1
+Jun 15 10:27:30.586 MMAP: unmapping of device 'rom', fd=16, host_addr=0xf2a30000, len=0x200000
+Jun 15 10:27:30.586 VM_OBJECT: Shutdown of object "ram"
+Jun 15 10:27:30.586 DEVICE: Removal of device ram, fd=15, host_addr=0xf2c30000, flags=2
+Jun 15 10:27:30.586 MMAP: unmapping of device 'ram', fd=15, host_addr=0xf2c30000, len=0x8000000
+Jun 15 10:27:30.627 VM_OBJECT: Shutdown of object "gt96100"
+Jun 15 10:27:30.627 DEVICE: Removal of device gt96100, fd=-1, host_addr=0x0, flags=0
+Jun 15 10:27:30.627 VM_OBJECT: Shutdown of object "io_fpga"
+Jun 15 10:27:30.627 DEVICE: Removal of device io_fpga, fd=-1, host_addr=0x0, flags=0
+Jun 15 10:27:30.627 VM_OBJECT: Shutdown of object "ssa"
+Jun 15 10:27:30.627 DEVICE: Removal of device ssa, fd=14, host_addr=0xfac30000, flags=2
+Jun 15 10:27:30.627 MMAP: unmapping of device 'ssa', fd=14, host_addr=0xfac30000, len=0x7000
+Jun 15 10:27:30.627 VM_OBJECT: Shutdown of object "remote_ctrl"
+Jun 15 10:27:30.627 DEVICE: Removal of device remote_ctrl, fd=-1, host_addr=0x0, flags=0
+Jun 15 10:27:30.627 VM: removing PCI busses.
+Jun 15 10:27:30.627 VM: deleting VTTY.
+Jun 15 10:27:30.627 VTTY: Console port: closing FD 13
+Jun 15 10:27:30.627 VM: deleting system CPUs.
+Jun 15 10:27:30.627 CPU0: CPU_STATE: Halting CPU (old state=1)...
+Jun 15 10:27:30.654 VM: shutdown procedure completed.
